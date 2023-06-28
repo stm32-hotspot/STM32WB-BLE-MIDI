@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+  <head>
+    <title>_htmresc\ReleaseNotes.html</title>
+  </head>
+  <body style="font-size: 10pt; font-family: Verdana;">
+    <h3 style="color: blue; text-decoration: underline;">STM32CubeWB Firmware Package V1.16.0 / 08-February-2023</h3>
+    <div style="margin-left: 18pt;">
+      <p>
+        <b><u>Main Changes</u></b>
+      </p>
+      <p>
+        <b>Maintenance Release for BLE, 802.15.4, Thread and Zigbee updates</b>
+      </p>
+      <p>
+	  <bl> Porting IAR toolChain 9.20.1. </bl>
+        <li> <strong>THREAD</strong> updates
+          <ul>
+            <li>TxPower API support added.</li>
+          </ul>
+        </li>
+        <li> <strong>Zigbee</strong> updates
+          <ul>
+            <li> Update default ZB_NWK parameter and add new configuration (ZB_NWK/ZB_APS).</li>
+          </ul>
+        </li>
+        <li>
+          <strong>BLE</strong> updates
+          <ul>
+            <li> BLE GATT caching and Enhanced ATT supported (certified BLE 5.3 - TCRL 2022-1).</li>
+			<li> Application has now the possibility to have scan operation in background with respect to advertising & Connection slave.</li>
+          </ul>
+        </li>
+		<li> <strong>MAC 802.15.4</strong> updates
+          <ul>
+            <li> LowPower application optimization.</li>
+			<li> Improve robustness in case of overloaded 802.15.4 network.</li>
+          </ul>
+        </li>
+		<li> <strong>BLE/MAC Static</strong> updates
+          <ul>
+            <li> Improve robustness in case of overloaded 802.15.4 network.</li>
+          </ul>
+        </li>
+		<li> <strong>BLE/Zigbee Dynamic</strong> updates
+          <ul>
+            <li> Improve robustness when switching from BLE to Zigbee.</li>
+          </ul>
+        </li>
+      </p>
+      <p>
+        <b>Maintenance Release for CMSIS, HAL/LL Drivers and Projects updates</b>
+      </p>
+      <p>
+        <li> <strong>HAL/LL Drivers</strong> updates
+         <ul>
+            <li>
+              Update HAL/LL drivers to include latest corrections
+                <ul>
+                <li>Update of HAL FLASH, Generic, I2C, SAI, TSC, UART drivers.</li>
+                </ul>
+            </li>
+            <li> Refer to <a href="../Drivers/STM32WBxx_HAL_Driver/Release_Notes.html">release notes</a> for further details </li>
+          </ul>
+        </li>
+
+
+        <li> <strong>Projects </strong> updates
+         <ul>
+            <li>
+              Update of FW projects following changes in latest version of HAL/LL and Middlewares and alignments with CubeMx
+                <ul>
+                  <li>/NUCLEO-WB15CC/Examples/CRYP/CRYP_DMA</li>
+				  <li>/NUCLEO-WB15CC/UART/UART_Print</li>
+				  <li>/P-NUCLEO-WB55.Nucleo/Examples/CRYP/CRYP_AESModes</li>
+				  <li>/P-NUCLEO-WB55.Nucleo/Examples/I2C/I2C_TwoBoards_RestartAdvComIT</li>
+				  <li>/P-NUCLEO-WB55.Nucleo/Examples/CRYP/CRYP_DMA</li>
+				  <li>/P-NUCLEO-WB55.Nucleo/Examples/UART/UART_Console</li>
+				  <li>/P-NUCLEO-WB55.Nucleo/Examples/UART/UART_Printf</li>
+				  <li>/STM32WB5MM-DK/Examples/BSP</li>
+				  <li>/STM32WB5MM-DK/Examples/UART/UART_Console</li>
+                </ul>
+            </li>
+          </ul>
+        </li>
+
+
+      </p>
+
+
+
+    </div>
+  </body>
+</html>
